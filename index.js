@@ -5,8 +5,8 @@ const cors = require('cors');
 
 const app = express();
 const port = process.env.PORT || 3000;
-const VERIFY_TOKEN = process.env.WABA_VERIFY_TOKEN || 'vibecoding';
-const APP_SECRET = process.env.WABA_APP_SECRET || 'replace_with_your_app_secret';
+const VERIFY_TOKEN = process.env.WABA_VERIFY_TOKEN || 'ya29.a0AfH6SMCscccd_9xA1B2C3';
+const APP_SECRET = process.env.WABA_APP_SECRET || 'ya29.a0AfH6SMCscccd_9xA1B2C3';
 
 // In-memory store for received webhook payloads (complete payload)
 // and for extracted text messages (dedupe + history).
